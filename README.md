@@ -9,7 +9,7 @@
 
 ## Sobre mi
 
-- ⭐ Github Star ⭐ 
+- ⭐ Descarga Anime ⭐ 
 - 📲 Mobile developer
 - 🎥 Te enseño a programar apps en [Youtube](https://youtube.com/aristidevs?sub_confirmation=1) (+62k subs)
 - ✏️ Y por escrito en [CursoKotlin](https://cursokotlin.com)
