@@ -4,7 +4,7 @@
 <img src="https://i.imgur.com/weNbhGZ.png">
 
 
-<img alt="Static Badge" src="[https://img.shields.io/badge/AnimeExpress?style=flat&logo=Anime](https://img.shields.io/badge/Sigueme_En-GitHub-blue)">
+![Static Badge](https://img.shields.io/badge/Sigueme_En-GitHub-blue)
 [![GitHub followers](https://img.shields.io/github/followers/AnimeExpress?style=social)](https://github.com/AnimeExpress)
 
 ## Sobre mi
