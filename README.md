@@ -12,7 +12,7 @@
 - 📥​ TODAS LAS DESCARGAS POR MEDIAFIRE 📥​
 - ✅​ ESTAMOS SUBIENDO ANIME A DIARIO ✅​
 - 🔗​ ¿LINKS CAÍDOS? CONTACTANOS EN NUESTRA PÁGINA DE [FACEBOOK](https://www.facebook.com/DescargasAnimega) (+6.6 mil seguidores)
-- ✏️ Y por escrito en [CursoKotlin](https://cursokotlin.com)
+- ✏️ ¿QUIERES UN ANIME EN ESPECIAL? CONTACTANOS EN NUESTRA PÁGINA DE [FACEBOOK](https://www.facebook.com/DescargasAnimega)
 - 📗 Autor del libro [Iniciación a Android en Kotlin. Casos prácticos](https://www.paraninfo.es/catalogo/9788428340922/iniciacion-a-android-en-kotlin--casos-practicos)
 - 🧑‍🏫 Creador de [AppCademy](https://appcademy.dev)
 <br>
