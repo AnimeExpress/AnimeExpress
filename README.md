@@ -7,9 +7,9 @@
 ![Static Badge](https://img.shields.io/badge/Sigueme_En-GitHub-blue)
 [![GitHub followers](https://img.shields.io/github/followers/AnimeExpress?style=social)](https://github.com/AnimeExpress)
 
-## Sobre mi
+## ANIME EXPRESS
 
-- 📥​ Descarga Anime por MediaFire 📥​
+- 📥​ TODAS LAS DESCARGAS POR MEDIAFIRE 📥​
 - 📲 Mobile developer
 - 🎥 Te enseño a programar apps en [Youtube](https://youtube.com/aristidevs?sub_confirmation=1) (+62k subs)
 - ✏️ Y por escrito en [CursoKotlin](https://cursokotlin.com)
