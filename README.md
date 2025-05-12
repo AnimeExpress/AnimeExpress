@@ -13,8 +13,6 @@
 - ✅​ ESTAMOS SUBIENDO ANIME A DIARIO ✅​
 - 🔗​ ¿LINKS CAÍDOS? CONTACTANOS EN NUESTRA PÁGINA DE [FACEBOOK](https://www.facebook.com/DescargasAnimega) (+6.6 mil seguidores)
 - ✏️ ¿QUIERES UN ANIME EN ESPECIAL? PONTE EN CONTACTO CON NOSOTROS
-- 📗 Autor del libro [Iniciación a Android en Kotlin. Casos prácticos](https://www.paraninfo.es/catalogo/9788428340922/iniciacion-a-android-en-kotlin--casos-practicos)
-- 🧑‍🏫 Creador de [AppCademy](https://appcademy.dev)
 <br>
 
 ## Proyectos *bombitas*
