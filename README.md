@@ -22,6 +22,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Documento con ubicaciones para GitHub Pages">
     <title>Documento con Ubicaciones</title>
     <style>
         body {
@@ -87,27 +88,43 @@
             color: #333;
             text-align: center;
         }
+
+        /* Opcional: Responsive para móviles */
+        @media (max-width: 842px) {
+            body {
+                width: 100%;
+                height: auto;
+            }
+            .ubicacion {
+                position: static;
+                width: 100% !important;
+                height: auto;
+                margin-bottom: 10px;
+            }
+        }
     </style>
 </head>
 <body>
-    <div id="ubicacion1" class="ubicacion">
+    <header id="ubicacion1" class="ubicacion">
         <span class="texto-ubicacion">UBICACIÓN 1 TÍTULO</span>
-    </div>
+    </header>
     
-    <div id="ubicacion2" class="ubicacion">
-        <span class="texto-ubicacion">UBICACIÓN 2 PORTADA</span>
-    </div>
-    
-    <div id="ubicacion3" class="ubicacion">
-        <span class="texto-ubicacion">UBICACIÓN 3 FICHA TÉCNICA</span>
-    </div>
-    
-    <div id="ubicacion4" class="ubicacion">
-        <span class="texto-ubicacion">UBICACIÓN 4 BOTONES DE DESCARGA</span>
-    </div>
-    
-    <div id="ubicacion5" class="ubicacion">
-        <span class="texto-ubicacion">UBICACIÓN 5 CONTRASEÑA</span>
-    </div>
+    <main>
+        <section id="ubicacion2" class="ubicacion">
+            <span class="texto-ubicacion">UBICACIÓN 2 PORTADA</span>
+        </section>
+        
+        <section id="ubicacion3" class="ubicacion">
+            <span class="texto-ubicacion">UBICACIÓN 3 FICHA TÉCNICA</span>
+        </section>
+        
+        <section id="ubicacion4" class="ubicacion">
+            <span class="texto-ubicacion">UBICACIÓN 4 BOTONES DE DESCARGA</span>
+        </section>
+        
+        <section id="ubicacion5" class="ubicacion">
+            <span class="texto-ubicacion">UBICACIÓN 5 CONTRASEÑA</span>
+        </section>
+    </main>
 </body>
 </html>
