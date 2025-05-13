@@ -20,124 +20,75 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Documento con ubicaciones para GitHub Pages">
-    <title>Documento con Ubicaciones</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            max-width: 842px;
-            margin: 0 auto;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-            min-height: 750px;
-            position: relative;
-        }
-        
-        .ubicacion {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: 2px dashed #333;
-            background-color: rgba(200, 200, 200, 0.3);
-            box-sizing: border-box;
-            margin: 10px;
-        }
-        
-        #ubicacion1 {
-            height: 60px;
-            font-size: 24px;
-            font-weight: bold;
-            margin-top: 20px;
-        }
-        
-        #ubicacion2 {
-            width: 300px;
-            height: 350px;
-            float: left;
-        }
-        
-        #ubicacion3 {
-            width: calc(100% - 340px);
-            height: 360px;
-            float: right;
-        }
-        
-        #ubicacion4 {
-            width: calc(100% - 340px);
-            height: 260px;
-            float: right;
-            clear: right;
-            margin-top: 10px;
-        }
-        
-        #ubicacion5 {
-            width: 300px;
-            height: 100px;
-            float: left;
-            clear: left;
-            margin-top: 10px;
-        }
-        
-        .texto-ubicacion {
-            font-size: 18px;
-            color: #333;
-            text-align: center;
-        }
+  <meta charset="UTF-8">
+  <title>Plantilla de Descarga</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
 
-        /* Clearfix para contener los floats */
-        main::after {
-            content: "";
-            display: table;
-            clear: both;
-        }
+    .contenedor {
+      width: 842px;
+      height: 550px;
+      display: grid;
+      grid-template-columns: 250px 592px;
+      grid-template-rows: 50px 350px 150px;
+      gap: 2px;
+      background: black;
+    }
 
-        /* Responsive para móviles */
-        @media (max-width: 842px) {
-            body {
-                width: 100%;
-                height: auto;
-                border: none;
-            }
-            
-            .ubicacion {
-                float: none !important;
-                width: calc(100% - 20px) !important;
-                height: auto;
-                min-height: 100px;
-                margin: 10px !important;
-            }
-            
-            #ubicacion1 {
-                margin-top: 10px;
-            }
-        }
-    </style>
+    .item {
+      background: yellow;
+      color: black;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    .titulo {
+      grid-column: 1 / span 2;
+    }
+
+    .portada {
+      grid-row: 2 / span 1;
+      grid-column: 1 / span 1;
+    }
+
+    .ficha {
+      grid-row: 2 / span 1;
+      grid-column: 2 / span 1;
+    }
+
+    .contrasena {
+      grid-row: 3 / span 1;
+      grid-column: 1 / span 1;
+    }
+
+    .botones {
+      grid-row: 3 / span 1;
+      grid-column: 2 / span 1;
+    }
+  </style>
 </head>
 <body>
-    <header id="ubicacion1" class="ubicacion" role="banner">
-        <h1 class="texto-ubicacion">UBICACIÓN 1 TÍTULO</h1>
-    </header>
-    
-    <main role="main">
-        <section id="ubicacion2" class="ubicacion" aria-label="Portada">
-            <p class="texto-ubicacion">UBICACIÓN 2 PORTADA</p>
-        </section>
-        
-        <section id="ubicacion3" class="ubicacion" aria-label="Ficha técnica">
-            <p class="texto-ubicacion">UBICACIÓN 3 FICHA TÉCNICA</p>
-        </section>
-        
-        <section id="ubicacion4" class="ubicacion" aria-label="Botones de descarga">
-            <p class="texto-ubicacion">UBICACIÓN 4 BOTONES DE DESCARGA</p>
-        </section>
-        
-        <section id="ubicacion5" class="ubicacion" aria-label="Contraseña">
-            <p class="texto-ubicacion">UBICACIÓN 5 CONTRASEÑA</p>
-        </section>
-    </main>
+  <div class="contenedor">
+    <div class="item titulo">UBICACIÓN 1 TÍTULO</div>
+    <div class="item portada">UBICACIÓN 2 PORTADA</div>
+    <div class="item ficha">UBICACIÓN 3 FICHA TÉCNICA</div>
+    <div class="item contrasena">UBICACIÓN 4 CONTRASEÑA</div>
+    <div class="item botones">UBICACIÓN 5 BOTONES DE DESCARGA</div>
+  </div>
 </body>
 </html>
+
