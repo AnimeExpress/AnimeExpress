@@ -15,8 +15,6 @@
 - ✏️ ¿QUIERES UN ANIME EN ESPECIAL? PONTE EN CONTACTO CON NOSOTROS
 <br>
 
-## Proyectos *bombitas*
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -25,70 +23,61 @@
   <style>
     body {
       margin: 0;
-      padding: 0;
-      background: #000;
+      background-color: #111;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
     }
-
-    .contenedor {
+    table {
       width: 842px;
       height: 550px;
-      display: grid;
-      grid-template-columns: 250px 592px;
-      grid-template-rows: 50px 350px 150px;
-      gap: 2px;
-      background: black;
+      border-collapse: collapse;
+      table-layout: fixed;
     }
-
-    .item {
-      background: yellow;
-      color: black;
-      font-weight: bold;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    td {
+      border: 5px solid black;
+      background-color: yellow;
       text-align: center;
-      padding: 10px;
-      box-sizing: border-box;
+      vertical-align: middle;
+      font-weight: bold;
       font-family: Arial, sans-serif;
     }
-
     .titulo {
-      grid-column: 1 / span 2;
+      height: 50px;
     }
-
     .portada {
-      grid-row: 2 / span 1;
-      grid-column: 1 / span 1;
+      width: 250px;
+      height: 300px;
     }
-
     .ficha {
-      grid-row: 2 / span 1;
-      grid-column: 2 / span 1;
+      width: 592px;
+      height: 300px;
     }
-
     .contrasena {
-      grid-row: 3 / span 1;
-      grid-column: 1 / span 1;
+      width: 250px;
+      height: 200px;
     }
-
-    .botones {
-      grid-row: 3 / span 1;
-      grid-column: 2 / span 1;
+    .descarga {
+      width: 592px;
+      height: 200px;
     }
   </style>
 </head>
 <body>
-  <div class="contenedor">
-    <div class="item titulo">UBICACIÓN 1 TÍTULO</div>
-    <div class="item portada">UBICACIÓN 2 PORTADA</div>
-    <div class="item ficha">UBICACIÓN 3 FICHA TÉCNICA</div>
-    <div class="item contrasena">UBICACIÓN 4 CONTRASEÑA</div>
-    <div class="item botones">UBICACIÓN 5 BOTONES DE DESCARGA</div>
-  </div>
+  <table>
+    <tr>
+      <td colspan="2" class="titulo">UBICACIÓN 1 TÍTULO</td>
+    </tr>
+    <tr>
+      <td class="portada">UBICACIÓN 2 PORTADA</td>
+      <td class="ficha">UBICACIÓN 3 FICHA TÉCNICA</td>
+    </tr>
+    <tr>
+      <td class="contrasena">UBICACIÓN 4 CONTRASEÑA</td>
+      <td class="descarga">UBICACIÓN 5 BOTONES DE DESCARGA</td>
+    </tr>
+  </table>
 </body>
 </html>
 
