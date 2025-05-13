@@ -28,59 +28,58 @@
         body {
             margin: 0;
             padding: 0;
-            width: 842px;
-            height: 750px;
             font-family: Arial, sans-serif;
-            position: relative;
+            max-width: 842px;
+            margin: 0 auto;
             border: 1px solid #ccc;
             box-sizing: border-box;
+            min-height: 750px;
+            position: relative;
         }
         
         .ubicacion {
-            position: absolute;
             display: flex;
             justify-content: center;
             align-items: center;
             border: 2px dashed #333;
             background-color: rgba(200, 200, 200, 0.3);
             box-sizing: border-box;
+            margin: 10px;
         }
         
         #ubicacion1 {
-            top: 20px;
-            left: 20px;
-            width: 802px;
             height: 60px;
             font-size: 24px;
             font-weight: bold;
+            margin-top: 20px;
         }
         
         #ubicacion2 {
-            top: 100px;
-            left: 20px;
             width: 300px;
             height: 350px;
+            float: left;
         }
         
         #ubicacion3 {
-            top: 100px;
-            left: 340px;
-            width: 482px;
+            width: calc(100% - 340px);
             height: 360px;
+            float: right;
         }
         
         #ubicacion4 {
-            top: 470px;
-            left: 340px;
-            width: 482px;
+            width: calc(100% - 340px);
             height: 260px;
+            float: right;
+            clear: right;
+            margin-top: 10px;
         }
         
         #ubicacion5 {
-            top: 470px;
-            left: 20px;
             width: 300px;
             height: 100px;
+            float: left;
+            clear: left;
+            margin-top: 10px;
         }
         
         .texto-ubicacion {
@@ -89,41 +88,55 @@
             text-align: center;
         }
 
-        /* Opcional: Responsive para móviles */
+        /* Clearfix para contener los floats */
+        main::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive para móviles */
         @media (max-width: 842px) {
             body {
                 width: 100%;
                 height: auto;
+                border: none;
             }
+            
             .ubicacion {
-                position: static;
-                width: 100% !important;
+                float: none !important;
+                width: calc(100% - 20px) !important;
                 height: auto;
-                margin-bottom: 10px;
+                min-height: 100px;
+                margin: 10px !important;
+            }
+            
+            #ubicacion1 {
+                margin-top: 10px;
             }
         }
     </style>
 </head>
 <body>
-    <header id="ubicacion1" class="ubicacion">
-        <span class="texto-ubicacion">UBICACIÓN 1 TÍTULO</span>
+    <header id="ubicacion1" class="ubicacion" role="banner">
+        <h1 class="texto-ubicacion">UBICACIÓN 1 TÍTULO</h1>
     </header>
     
-    <main>
-        <section id="ubicacion2" class="ubicacion">
-            <span class="texto-ubicacion">UBICACIÓN 2 PORTADA</span>
+    <main role="main">
+        <section id="ubicacion2" class="ubicacion" aria-label="Portada">
+            <p class="texto-ubicacion">UBICACIÓN 2 PORTADA</p>
         </section>
         
-        <section id="ubicacion3" class="ubicacion">
-            <span class="texto-ubicacion">UBICACIÓN 3 FICHA TÉCNICA</span>
+        <section id="ubicacion3" class="ubicacion" aria-label="Ficha técnica">
+            <p class="texto-ubicacion">UBICACIÓN 3 FICHA TÉCNICA</p>
         </section>
         
-        <section id="ubicacion4" class="ubicacion">
-            <span class="texto-ubicacion">UBICACIÓN 4 BOTONES DE DESCARGA</span>
+        <section id="ubicacion4" class="ubicacion" aria-label="Botones de descarga">
+            <p class="texto-ubicacion">UBICACIÓN 4 BOTONES DE DESCARGA</p>
         </section>
         
-        <section id="ubicacion5" class="ubicacion">
-            <span class="texto-ubicacion">UBICACIÓN 5 CONTRASEÑA</span>
+        <section id="ubicacion5" class="ubicacion" aria-label="Contraseña">
+            <p class="texto-ubicacion">UBICACIÓN 5 CONTRASEÑA</p>
         </section>
     </main>
 </body>
