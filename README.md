@@ -19,8 +19,6 @@
 
 <span style="font-size: x-large;"><b><span style="color: #0000fa;">A</span></b></span>
 <br />
-<a href="LINK" target="_blank">NOMBRE</a>
-<br />
 <span style="font-size: x-large;"><b><span style="color: #0000fa;">B</span></b></span>
 <br />
 <span style="font-size: x-large;"><b><span style="color: #0000fa;">C</span></b></span>
