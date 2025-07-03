@@ -15,6 +15,8 @@
 - ✏️ ¿QUIERES UN ANIME EN ESPECIAL? PONTE EN CONTACTO CON NOSOTROS
 <br>
 
+<a href="https://tusitio.com" target="_blank" rel="noopener noreferrer">Texto del enlace</a>
+
 <span style="font-size: x-large;"><b><span style="color: #0000fa;">A</span></b></span>
 <br />
 <span style="font-size: x-large;"><b><span style="color: #0000fa;">B</span></b></span>
