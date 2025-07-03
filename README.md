@@ -15,7 +15,7 @@
 - ✏️ ¿QUIERES UN ANIME EN ESPECIAL? PONTE EN CONTACTO CON NOSOTROS
 <br>
 
-<a href="https://tu-enlace.com" target="_blank">Texto del enlace</a>
+<a href="LINK" target="_blank">NOMBRE</a>
 
 <span style="font-size: x-large;"><b><span style="color: #0000fa;">A</span></b></span>
 <br />
