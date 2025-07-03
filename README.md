@@ -15,76 +15,58 @@
 - ✏️ ¿QUIERES UN ANIME EN ESPECIAL? PONTE EN CONTACTO CON NOSOTROS
 <br>
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Tabla Ajustada</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: #111;
-      color: #fff;
-      font-family: sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
 
-    table {
-      width: 841px;
-      height: 673px;
-      border-collapse: collapse;
-      border: 2px solid #fff;
-      table-layout: fixed;
-    }
-
-    td {
-      border: 1px solid #666;
-      padding: 10px;
-      text-align: center;
-      vertical-align: middle;
-      word-wrap: break-word;
-    }
-
-    .titulo {
-      background-color: #222;
-      font-size: 24px;
-      font-weight: bold;
-    }
-
-    .portada {
-      background-color: #333;
-    }
-
-    .ficha {
-      background-color: #444;
-    }
-
-    .contrasena {
-      background-color: #333;
-    }
-
-    .descarga {
-      background-color: #444;
-    }
-  </style>
-</head>
-<body>
-  <table>
-    <tr>
-      <td colspan="2" class="titulo">UBICACIÓN 1 TÍTULO</td>
-    </tr>
-    <tr>
-      <td class="portada">UBICACIÓN 2 PORTADA</td>
-      <td class="ficha">UBICACIÓN 3 FICHA TÉCNICA</td>
-    </tr>
-    <tr>
-      <td class="contrasena">UBICACIÓN 4 CONTRASEÑA</td>
-      <td class="descarga">UBICACIÓN 5 BOTONES DE DESCARGA</td>
-    </tr>
-  </table>
-</body>
-</html>
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">A</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">B</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">C</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">D</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">E</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">F</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">G</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">H</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">I</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">J</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">K</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">L</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">M</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">N</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">O</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">P</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">Q</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">R</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">S</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">T</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">U</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">V</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">W</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">X</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">Y</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">Z</span></b></span>
+<br />
+<span style="font-size: x-large;"><b><span style="color: #0000fa;">A</span></b></span>
+<br />
